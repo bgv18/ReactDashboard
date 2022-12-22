@@ -34,7 +34,7 @@ const App = () => {
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
           <div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
-            <Tooltip title="Settings" arrow position="Top">
+            <Tooltip title="Configuração" arrow position="Top">
               <Button
                 type="button"
                 className="text-3x1 p-3 hover:drop-shadow-x1 hover:bg-light-gray text-white"
