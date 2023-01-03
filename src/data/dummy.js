@@ -872,50 +872,34 @@ export const userProfileData = [
 
 export const ordersGrid = [
   {
-    headerText: 'Image',
-    template: gridOrderImage,
-    textAlign: 'Center',
-    width: '120',
-  },
-  {
     field: 'OrderItems',
-    headerText: 'Item',
+    headerName: 'Item',
     width: '150',
-    editType: 'dropdownedit',
-    textAlign: 'Center',
   },
   { field: 'CustomerName',
-    headerText: 'Customer Name',
+    headerName: 'Customer Name',
     width: '150',
-    textAlign: 'Center',
   },
   {
     field: 'TotalAmount',
-    headerText: 'Total Amount',
-    format: 'C2',
-    textAlign: 'Center',
-    editType: 'numericedit',
+    headerName: 'Total Amount',
     width: '150',
   },
   {
-    headerText: 'Status',
-    template: gridOrderStatus,
+    headerName: 'Status',
     field: 'OrderItems',
-    textAlign: 'Center',
     width: '120',
   },
   {
     field: 'OrderID',
-    headerText: 'Order ID',
+    headerName: 'Order ID',
     width: '120',
-    textAlign: 'Center',
   },
 
   {
     field: 'Location',
-    headerText: 'Location',
+    headerName: 'Location',
     width: '150',
-    textAlign: 'Center',
   },
 ];
 
@@ -3083,12 +3067,7 @@ export const dropdownData = [
   },
 ];
 export const SparklineAreaData = [
-  { x: 1, yval: 2 },
-  { x: 2, yval: 6 },
-  { x: 3, yval: 8 },
-  { x: 4, yval: 5 },
-  { x: 5, yval: 10 },
-
+  5,10,5,20,8,15
 ];
 
 export const lineCustomSeries = [
